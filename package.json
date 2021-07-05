@@ -1,0 +1,31 @@
+{
+  "name": "fcc-blog-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start":"nodemon -r dotenv/config -e js ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4WKINS/FCC-BLOG-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D4WKINS/FCC-BLOG-BE/issues"
+  },
+  "homepage": "https://github.com/D4WKINS/FCC-BLOG-BE#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "express-validator": "^6.12.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "nodemon": "^2.0.9"
+  }
+}
